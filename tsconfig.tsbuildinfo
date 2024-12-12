@@ -1,0 +1,1 @@
+{"root":["./src/create-credential.ts","./src/create-identifier.ts","./src/list-identifiers.ts","./src/verify-credential.ts","./src/veramo/setup.ts"],"version":"5.7.2"}
