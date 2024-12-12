@@ -36,13 +36,13 @@ import {
   // TypeORM is installed with `@veramo/data-store`
   import { DataSource } from 'typeorm'
 
-  // This will be the name for the local sqlite database for demo purposes
+  // Local sqlite database for demo purposes
 const DATABASE_FILE = 'database.sqlite'
 
-// You will need to get a project ID from infura https://www.infura.io
+  // Project ID from infura https://www.infura.io
 const INFURA_PROJECT_ID = '80d27038a04d4b8884462154afe08514'
 
-// This will be the secret key for the KMS (replace this with your secret key)
+  // Secret key for the KMS
 const KMS_SECRET_KEY = 'c1d0cda1cbbaf54a402d0bb3442717ddf53f2a3a46f90baf1c7d469515212335'
 
 const dbConnection = new DataSource({
